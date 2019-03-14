@@ -1,4 +1,5 @@
-const data = require('./requireIntern');
+const { student, getAverage } = require('./requireIntern');
 
-console.log(data.student);
-console.log("The average of student is: " + data.getAverage(data.student.notes.mathematics, data.student.notes.english, data.student.notes.programming));
+let { name, age, notes: { mathematics, english, programming }} = student;
+
+console.log("The average of student " + name + " is " + getAverage(mathematics, english, programming));
