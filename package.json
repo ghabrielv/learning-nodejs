@@ -1,0 +1,23 @@
+{
+  "name": "learning-nodejs",
+  "version": "1.0.0",
+  "description": "Curso de NodeJS",
+  "main": "index.js",
+  "dependencies": {
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghabrielv/learning-nodejs.git"
+  },
+  "author": "ghabrielv@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghabrielv/learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/ghabrielv/learning-nodejs#readme"
+}
